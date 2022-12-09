@@ -1,0 +1,374 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.text-red {
+    color: red;
+  }
+
+  .weight-900 {
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .weight-700 {
+    font-weight: 700;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #000;
+
+  }
+
+  .text-white {
+    color: #fff;
+  }
+
+  .contact-card {
+    height: 70px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .blue-text {
+    color: #0d6efd;
+  }
+
+  .secondary-navbar-bg-color {
+    background-color: #0d6efd;
+    ;
+
+  }
+
+  .red-dot {
+    height: 40px;
+    width: 40px;
+    background-color: #DC3535;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+
+  .bg {
+    /* The image used */
+    background-image: url("xbg_3.png");
+
+    /* Full height */
+    height: 90vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .dream-bg {
+    /* The image used */
+    background-image: url("xbg_2.png");
+    background-color: #000;
+    /* Full height */
+    height: 90vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* fun facts position */
+
+  .fun-facts{
+    position: absolute; bottom:40%; left:10%;
+
+  }
+
+  @media (max-width:1200px) {
+    
+    .fun-facts{
+
+    position: absolute; bottom:20%; left:2%;
+        
+
+    }
+}
+@media (max-width:1066px) {
+    
+    .fun-facts{
+
+    position: absolute; bottom:20%; left:10%;
+        
+
+    }
+}
+/* for medim screen */
+.fun-facts-md{
+    position: absolute;
+    bottom:10%; 
+    width: 100%;
+    margin: 0 auto;
+
+  }
+/* health dream portion */
+
+.health-dream{
+    text-align: center;
+    width: 50%; 
+      height: auto;
+      margin: auto;
+      bottom:-30%;
+      padding: 10px;
+      position: relative;
+}
+@media (max-width:840px) {
+    
+    .health-dream{
+
+        text-align: center;
+        width: 50%; 
+          height: auto;
+          margin: auto;
+          bottom:-5%;
+          padding: 12px;
+          position: relative;
+
+    }
+}
+/* patient says */
+.patient-says{
+    position: absolute; bottom:15%; left:7%;
+}
+@media (max-width:1350px) {
+    
+    .patient-says{
+
+        position: absolute; bottom:5%; left:7%;
+
+
+    }
+}
+/* patient says md */
+
+.patient-says-md{
+    position: absolute; bottom:45%;
+    
+    margin: 0 auto;
+
+}
+/* primary navbar */
+.primary-navbar{
+    height:70px; width:100%;  position: absolute;
+    z-index: 1;
+}
+@media (max-width:991px) {
+    
+    .primary-navbar{
+
+    height:70px; width:100%;     position: relative;
+    background-color: #000 !important;
+    color: #fff !important;
+        
+
+
+    }
+}
+/* logo change to white*/
+.white-logo{
+
+}
+@media (max-width:991px) {
+    
+    .white-logo{
+
+    color: #fff !important;
+        
+
+
+    }
+}
+
+.custom-toggler.navbar-toggler {
+    
+    background-image: url("https://img.icons8.com/external-creatype-glyph-colourcreatype/64/FFFFFF/external-hamburger-basic-creatype-glyph-colourcreatype.png");
+    
+  }
+/* footer */
+
+.footer-mediplus{
+    position: absolute; bottom:2%;
+}
+@media (max-width:1200px) {
+    
+    .footer-mediplus{
+
+
+display:none;
+
+        
+
+
+    }
+}
+/* footer image */
+.footer-image{
+
+}
+
+/* meduim footer */
+.meduim-footer{
+ display:none; 
+}
+@media (max-width:1200px) {
+    
+  .footer-image{
+
+
+display:none;
+  }
+  .meduim-footer{
+    display:block; 
+   }
+}
+.footer-icons-medium {
+  height: 50px;
+  width: 50px;
+  background-color: #0d6efd;
+  border-radius: 50%;
+  display: inline-block;
+}
+/* welcome image */
+.welcome-image{
+  position: relative; bottom:-20%;
+
+}
+@media (max-width:992px) {
+  .welcome-image{
+    position: relative; bottom:-10%;
+  }
+  
+
+}
+@media (max-width:992px) {
+  .welcome-image{
+    position: relative; bottom:-5%;
+  }
+  
+
+}
+/* about img */
+.about-img{
+  width:30%; height:90vh;
+}
+@media (max-width:1200px) {
+    
+  .footer-image{
+
+
+display:none;
+  }
+  .about-img{
+  width:80%; height:90vh;
+  margin: 0 auto ;
+    
+   }
+
+}
+.display-md-block{
+  display: flex;
+   }  
+@media (max-width:1160px) {
+    
+  .display-md-block{
+    display: block !important;
+     }  
+
+}
+
+/* welcome-txt */
+
+.welcome-txt{
+  text-align:left;
+  padding: 6%;
+}
+@media (max-width:990px) {
+  .welcome-txt{
+    padding: 4%;
+  } 
+}
+@media (max-width:744px) {
+  .welcome-txt{
+    padding: 1rem;
+  } 
+}
+
+/* about */
+.about-subtext{
+  align-self: center;
+}
+.about{ 
+
+
+  margin-left: 4%;
+
+  display: flex;
+  justify-content:start;
+  gap: 5%;
+
+}
+.medium-subtext{
+  display:none;
+}
+@media (max-width:846px) {
+  .about{
+      flex-direction: column;
+
+  }
+  .about-subtext{
+      display:none;
+  }
+
+  .about-img{
+      width:90% !important;
+      align-self: center;
+      justify-content:space-around;
+
+
+  }
+  .medium-subtext{
+      margin-left: 5%;
+      display:block;
+
+
+  }
+}
+.about-img{
+  width:30%;
+  height:80vh;
+}
+.about-right{
+  display:flex;
+  flex-direction:column;
+
+}
+
+.btn{
+  text-transform: none; 
+}
+/* .line */
+.line{
+  border-bottom:2px white;
+  display:block;
+}
+/*  */
